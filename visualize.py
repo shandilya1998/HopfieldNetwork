@@ -13,5 +13,4 @@ def get_image(filename):
     plt.axis('off')
     plt.title(f'Image of {filename}')
     plt.savefig(filename+'.png')
-    plt.show()
     return arr
